@@ -12,21 +12,21 @@ I am a second year Ph.D. student in Computer Science, part of the [System-Level 
 
 ## Education
 
-- **Ph.D. in Computer Science**, Columbia University.&nbsp;&nbsp; *Aug 2023 – Present* | New York, NY  
+- **Ph.D. in Computer Science**, Columbia University.&nbsp;&nbsp; <p align='right'>*Aug 2023 – Present* | New York, NY  </p>
 **Advisor**: Professor Luca P. Carloni
 
-- **M.S. in Electrical Engineering**, KAIST.&nbsp;&nbsp;  *Sep 2020 – Feb 2022* | Daejeon, South Korea  
+- **M.S. in Electrical Engineering**, KAIST.&nbsp;&nbsp;  <p align='right'>*Sep 2020 – Feb 2022* | Daejeon, South Korea  </p>
 **Advisor**: Professor Joo-Young Kim
 
-- **B.S. in Electrical Engineering**, KAIST.&nbsp;&nbsp; *Mar 2016 – Aug 2022* | Daejeon, South Korea  
+- **B.S. in Electrical Engineering**, KAIST.&nbsp;&nbsp; <p align='right'>*Mar 2016 – Aug 2022* | Daejeon, South Korea  </p>
 Graduated *Cum Laude* (GPA: 3.72 / 4.3) <br>
 **Exchange Student**, University of California, Irvine  
 *Jul 2019 – Aug 2019* | Irvine, CA
 
 
 ## Experience
-- **Rebellions Inc.**&nbsp;&nbsp;   *Oct 2022 – May 2023* | Seoul, South Korea  
-Research Intern, AI Accelerator and System Team
+- **Rebellions Inc.**&nbsp;&nbsp; <p align='right'>*Oct 2022 – May 2023* | Seoul, South Korea</p>
+  Research Intern, AI Accelerator and System Team
 
 ## Awards & Scholarships
 
