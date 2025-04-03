@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2021-DAC-FIXAR
 excerpt: 'Je Yang, Seongmin Hong, and Joo-Young Kim'
-date: 2021
+date: 2021-12-05
 venue: 'ACM/IEEE Design Automation Conference (DAC)'
 paperurl: 'http://academicpages.github.io/files/2021 DAC Paper.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
