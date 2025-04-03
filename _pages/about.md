@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year Ph.D. student in Computer Science, part of the [System-Level Design Group](https://www.cs.columbia.edu/~carloni/) at Columbia University. Before joining Columbia University, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST.
-- **Research Interests**: Computer Architecture, Heterogeneous Reconfigurable SoC, HW/SW Co-Design for Generative AI
-- **Coursework**: System-on-chip Platforms, Embedded Scalable Platforms, System Optimization with AI/ML
+I am a second year Ph.D. student in Computer Science, part of the [System-Level Design Group](https://www.cs.columbia.edu/~carloni/) at Columbia University. Before joining Columbia University, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST. <br>
+**Research Interests**: Computer Architecture, Heterogeneous Reconfigurable SoC, HW/SW Co-Design for Generative AI <br>
+**Coursework**: System-on-chip Platforms, Embedded Scalable Platforms, System Optimization with AI/ML
 
 
 
