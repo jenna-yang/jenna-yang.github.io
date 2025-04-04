@@ -12,15 +12,27 @@ author_profile: true
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 2rem;
+    table-layout: fixed; /* 고정 너비 설정 */
   }
-  .tag-table th {
-    text-align: left;
-    font-size: 1.1rem;
-    padding-bottom: 0.5rem;
-  }
-  .tag-table td {
+  
+  .tag-table th, .tag-table td {
+    text-align: center;
     vertical-align: top;
-    padding: 0.3rem 1rem 0.3rem 0;
+    padding: 0.5rem;
+  }
+  
+  /* 컬럼별 너비 조정 */
+  .tag-table th:nth-child(1),
+  .tag-table td:nth-child(1) {
+    width: 35%;  /* Platform 넓게 */
+  }
+  .tag-table th:nth-child(2),
+  .tag-table td:nth-child(2) {
+    width: 35%;
+  }
+  .tag-table th:nth-child(3),
+  .tag-table td:nth-child(3) {
+    width: 30%;  /* HW/SW Co-Design 좁게 */
   }
   
   /* 태그 기본 스타일 */
