@@ -5,14 +5,73 @@ title: "Publications by Tags"
 author_profile: true
 ---
 
+
+<style>
+  /* 테이블 스타일 */
+  .tag-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  .tag-table th {
+    text-align: left;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+  .tag-table td {
+    vertical-align: top;
+    padding: 0.3rem 1rem 0.3rem 0;
+  }
+  
+  /* 태그 기본 스타일 */
+  .tag-label {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 4px 6px 4px 0;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* 색상 지정 */
+  .fg-fpga  { background-color: #b2f2bb; color: #064e3b; }  /* 연초록 */
+  .fg-asic  { background-color: #2f9e44; color: white; }    /* 진초록 */
+  .fg-mtc   { background-color: #bae6fd; color: #0c4a6e; }  /* 연하늘 */
+  .fg-rl    { background-color: #60a5fa; color: white; }    /* 하늘 */
+  .fg-quant { background-color: #fbcfe8; color: #831843; }  /* 연분홍 */
+  .fg-prune { background-color: #fdba74; color: #7c2d12; }  /* 연주황 */
+  </style>
+  
+  <table class="tag-table">
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Applications</th>
+        <th>HW/SW Co-Design</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a href="#fpga" class="tag-label fg-fpga">FPGA</a><br>
+          <a href="#asic" class="tag-label fg-asic">ASIC</a>
+        </td>
+        <td>
+          <a href="#multitenant-cnn" class="tag-label fg-mtc">MultiTenant-CNN</a><br>
+          <a href="#reinforcementlearning" class="tag-label fg-rl">ReinforcementLearning</a>
+        </td>
+        <td>
+          <a href="#quantization" class="tag-label fg-quant">Quantization</a><br>
+          <a href="#pruning" class="tag-label fg-prune">Pruning</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
 {% include base_path %}
 {% include group-by-array collection=site.publications field="tags" %}
-
-<ul class="tag-list">
-  {% for tag in group_names %}
-    <li><a href="#{{ tag | slugify }}">{{ tag }}</a></li>
-  {% endfor %}
-</ul>
 
 {% for tag in group_names %}
   <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
