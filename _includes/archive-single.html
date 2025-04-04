@@ -42,6 +42,13 @@
           <p> {{ post.venue }}</p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "" | date: "%Y" }} </p>
+          {% if post.tags %}
+            <p class="pub__tags">
+              {% for tag in post.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </p>
+          {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "" | date_to_xmlschema }}">{{ post.date | default: "" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
