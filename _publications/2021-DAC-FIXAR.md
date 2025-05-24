@@ -6,7 +6,7 @@ permalink: /publication/2021-DAC-FIXAR
 excerpt: 'Je Yang, Seongmin Hong, and Joo-Young Kim'
 date: 2021-12-05
 venue: 'ACM/IEEE Design Automation Conference (DAC)'
-paperurl: 'http://jenna-yang.github.io/files/2021 DAC Paper.pdf'
+paperurl: 'http://jenna-yang.github.io/files/2021-DAC-Paper.pdf'
 tags:
   - ReinforcementLearning
   - Quantization
