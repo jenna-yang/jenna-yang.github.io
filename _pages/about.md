@@ -33,6 +33,9 @@ System-on-chip Platforms | Embedded Scalable Platforms | System Optimization wit
 - **Rebellions Inc.**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:darkgray">Oct 2022 – May 2023 | Seoul, South Korea</span>  
 Research Intern, AI Accelerator and System Team
 
+- **Google.**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:darkgray">May 2025 – Aug 2025 | New York, NY</span>  
+Student Researcher, ML, Systems and Cloud AI Team
+
 ## Awards & Scholarships
 
 - **Gold Prize**, 29th Samsung HumanTech Award (1st in Circuit Design Division). <span style="color:darkgray">Feb 2023</span>
