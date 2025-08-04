@@ -6,7 +6,7 @@ permalink: /publication/2025-FPL-ReconFormer
 excerpt: 'Je Yang, Gabriele Tombesi, Joseph Zuckerman, and Luca P. Carloni'
 date: 2025-09-01
 venue: 'IEEE International Conference on Field-Programmable Logic and Applications (FPL)'
-paperurl:
+paperurl: 'http://jenna-yang.github.io/files/2025-FPL-Paper.pdf'
 tags:
   - LanguageModel
   - FPGA
