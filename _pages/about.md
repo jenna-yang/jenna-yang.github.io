@@ -2,6 +2,7 @@
 permalink: /
 title: "Hi there, I'm Jenna"
 author_profile: true
+classes: wide
 redirect_from: 
   - /about/
   - /about.html
