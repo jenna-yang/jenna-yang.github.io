@@ -81,25 +81,29 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 120px;
-  // set width only, for non-square avatars
-  // height: 36px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
+  display: block;          /* 테마 기본 table-cell을 덮어쓰기 */
+  text-align: center;      /* 가운데 정렬 */
+  width: 100%;             /* 사이드바 폭에 맞춤 */
+  margin-bottom: 0.75rem;
 
   img {
-    max-width: 175px;
+    /* 기본 원형 + 잘림 제어 */
+    display: block;
+    margin: 0 auto;
+    width: 160px;          /* 모바일/기본 크기 */
+    height: 160px;
     border-radius: 50%;
+    object-fit: cover;     /* 이미지 중앙 기준으로 꽉 채워 자르기 */
+    object-position: center;
 
+    /* 테마의 padding/border 규칙은 유지하되, 더 크게 */
     @include breakpoint($large) {
-      padding: 5px;
+      width: 230px;        /* 데스크톱에서 크게 */
+      height: 230px;
+      padding: 6px;
       border: 1px solid var(--global-border-color);
+      /* 선택: 은은한 그림자 */
+      box-shadow: 0 0 10px rgba(#000, 0.08);
     }
   }
 }
