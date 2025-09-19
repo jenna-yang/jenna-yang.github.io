@@ -37,3 +37,15 @@ author_profile: true
     <li><a href="{{ '/publications/#' | append: slug | relative_url }}">{{ tag }}</a></li>
   {%- endfor -%}
 </ul>
+
+{% for tag in group_names %}
+  {% assign slug = tag | slugify %}
+  <h2 id="{{ slug }}" class="archive__subtitle">
+    {{ tag }}
+  </h2>
+
+  {% assign posts = group_items[forloop.index0] %}
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}
