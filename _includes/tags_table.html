@@ -4,27 +4,17 @@
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 2rem;
-    table-layout: fixed; /* 고정 너비 설정 */
+    table-layout: auto; 
+    table-layout: auto;   /* 자동 너비 계산 */
+    width: auto;          /* 전체 폭 강제 X */
+    margin-left: auto;    /* 가운데 정렬 */
   }
   
   .tag-table th, .tag-table td {
     text-align: center;
     vertical-align: top;
-    padding: 0.5rem;
-  }
-  
-  /* 컬럼별 너비 조정 */
-  .tag-table th:nth-child(1),
-  .tag-table td:nth-child(1) {
-    width: 35%;  /* Platform 넓게 */
-  }
-  .tag-table th:nth-child(2),
-  .tag-table td:nth-child(2) {
-    width: 35%;
-  }
-  .tag-table th:nth-child(3),
-  .tag-table td:nth-child(3) {
-    width: 30%;  /* HW/SW Co-Design 좁게 */
+    padding: 0.5rem 1rem; /* 여백 조금 줌 */
+    white-space: nowrap;  /* 줄바꿈 방지: 글자수에 맞게 셀 늘어남 */
   }
   
   /* 태그 기본 스타일 */
