@@ -37,21 +37,3 @@ author_profile: true
     <li><a href="{{ '/publications/#' | append: slug | relative_url }}">{{ tag }}</a></li>
   {%- endfor -%}
 </ul>
-
-{%- comment -%}
-아래는 기존처럼 태그별로 글을 나열하되,
-h2 옆에 "View in Publications" 링크를 추가해서도 이동 가능하게 함
-{%- endcomment -%}
-{% for tag in group_names %}
-  {% assign slug = tag | slugify %}
-  <h2 id="{{ slug }}" class="archive__subtitle">
-    {{ tag }}
-    <a href="{{ '/publications/#' | append: slug | relative_url }}"
-       style="font-size:.8em; margin-left:.5rem;">(View in Publications)</a>
-  </h2>
-
-  {% assign posts = group_items[forloop.index0] %}
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
