@@ -33,12 +33,12 @@ System-on-chip Platforms | Embedded Scalable Platforms | System Optimization wit
 ## Experience
 - **Google.**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:darkgray">May 2025 – Aug 2025 | New York, NY</span>  
 Student Researcher. ML, Systems and Cloud AI Team<br>
-- Developed an agentic AI system with refined system prompts for RTL simulation debugging and verification<br>
-- Optimized waveform-to-database conversion to automatically generate queries for accurate signal data retrieval, reducing database size by 18% and accelerating generation time by 65%.<br>
+  - Developed an agentic AI system with refined system prompts for RTL simulation debugging and verification<br>
+  - Optimized waveform-to-database conversion to automatically generate queries for accurate signal data retrieval, reducing database size by 18% and accelerating generation time by 65%.<br>
 - **Rebellions Inc.**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:darkgray">Oct 2022 – May 2023 | Seoul, South Korea</span>  
 Research Intern. AI Accelerator and System Team<br>
-- Implemented a system emulation tool in Python to determine the optimal hardware configuration, including number of acceleration chips, chip-to-chip topology and bandwidth, memory and computation resources for real-time inference. <br>
-- - Mapped and simulated the transformer-based hyper-scale models (BERT, GPT-2, and T5) with system emulation tool.<br>
+  - Implemented a system emulation tool in Python to determine the optimal hardware configuration, including number of acceleration chips, chip-to-chip topology and bandwidth, memory and computation resources for real-time inference. <br>
+  - Mapped and simulated the transformer-based hyper-scale models (BERT, GPT-2, and T5) with system emulation tool.<br>
 
 
 ## Awards & Scholarships
