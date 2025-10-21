@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year Ph.D. student in Computer Science, part of the [System-Level Design Group](https://sld.cs.columbia.edu/) at Columbia University. Before joining Columbia University, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST. <br>
+I am a third year Ph.D. candidate in Computer Science, part of the [System-Level Design Group](https://sld.cs.columbia.edu/) at Columbia University. Before joining Columbia University, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST. <br>
 **Research Interests**<br>
 Computer Architecture | Heterogeneous Reconfigurable SoC | HW/SW Co-Design Approach
 <br>
@@ -33,7 +33,7 @@ System-on-chip Platforms | Embedded Scalable Platforms | System Optimization wit
 ## Experience
 - **Google.**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:darkgray">May 2025 – Aug 2025 | New York, NY</span>  
 Student Researcher. ML, Systems and Cloud AI Team<br>
-  - Developed an agentic AI system with refined system prompts for RTL simulation debugging and verification<br>
+  - Developed an agentic AI system with refined system prompts for RTL simulation debugging and verification.<br>
   - Optimized waveform-to-database conversion to automatically generate queries for accurate signal data retrieval, reducing database size by 18% and accelerating generation time by 65%.<br>
 - **Rebellions Inc.**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:darkgray">Oct 2022 – May 2023 | Seoul, South Korea</span>  
 Research Intern. AI Accelerator and System Team<br>
