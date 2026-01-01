@@ -1,49 +1,34 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "Hi there, I'm Jenna"
-author_profile: true
-classes: wide
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a third year Ph.D. candidate in Computer Science, part of the [System-Level Design Group](https://sld.cs.columbia.edu/) at Columbia University. Before joining Columbia University, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST. <br>
-**Research Interests**<br>
-Computer Architecture | Heterogeneous Reconfigurable SoC | HW/SW Co-Design Approach
-<br>
-**Coursework** <br>
-System-on-chip Platforms | Embedded Scalable Platforms | System Optimization with AI/ML
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-
-## Education
-
-- **Ph.D. in Computer Science**, Columbia University.&nbsp;&nbsp;&nbsp; <span style="color:darkgray"> Aug 2023 – Present | New York, NY</span>
-<br>**Advisor**: Professor Luca P. Carloni
-
-- **M.S. in Electrical Engineering**, KAIST.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span style="color:darkgray">Sep 2020 – Feb 2022 | Daejeon, South Korea</span>
-<br>**Advisor**: Professor Joo-Young Kim
-
-- **B.S. in Electrical Engineering**, KAIST.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:darkgray">Mar 2016 – Aug 2022 | Daejeon, South Korea</span>
-<br> Graduated Cum Laude (GPA: 3.72 / 4.3) <br>
-**Exchange Student**, University of California, Irvine.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span style="color:darkgray">Jul 2019 – Aug 2019 | Irvine, CA</span>
-
-
-## Experience
-- **Google.**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:darkgray">May 2025 – Aug 2025 | New York, NY</span>  
-Student Researcher. ML, Systems and Cloud AI Team<br>
-  - Developed an agentic AI system with a prompt engineering for RTL simulation debugging and verification.<br>
-  - Optimized waveform-to-database conversion to generate SQL for signal data retrieval, reducing database size by 18% and accelerating generation time by 65%.<br>
-- **Rebellions Inc.**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:darkgray">Oct 2022 – May 2023 | Seoul, South Korea</span>  
-Research Intern. AI Accelerator and System Team<br>
-  - Implemented a system emulation tool in Python to determine the optimal hardware configuration, including number of acceleration chips, chip-to-chip topology and bandwidth, memory and computation resources for real-time inference. <br>
-  - Mapped and simulated the transformer-based hyper-scale models (BERT, GPT-2, and T5) with system emulation tool.<br>
-
-
-## Awards & Scholarships
-
-- **Gold Prize**, 29th Samsung HumanTech Award (1st in Circuit Design Division). <span style="color:darkgray">Feb 2023</span>
-- **National Full Scholarship**, KAIST. <span style="color:darkgray">Sep 2020</span>  
-- **Grand Prize**, WISET Female Engineering Program. <span style="color:darkgray">Apr 2018</span>  
-- **National Science & Technology Scholarship**. <span style="color:darkgray">Mar 2018</span>
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
