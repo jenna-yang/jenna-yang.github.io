@@ -37,6 +37,8 @@
 
         <span class="pub-title">{{ title }}</span>
         {% if post.paperurl %}<a class="paper-link" href="{{ post.paperurl }}">[paper]</a>{% endif %}
+      {% elsif post.collection == 'teaching' %}
+        <span class="pub-title">{{ title }}</span>
       {% else %}
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a>
