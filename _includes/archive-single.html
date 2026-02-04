@@ -27,7 +27,7 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-이라      {% assign _cat = post.category | downcase %}
+      {% assign _cat = post.category | downcase %}
       {% if post.collection == 'publications' %}
         {% if _cat contains 'journal' or _cat contains 'journals' %}
           <span class="pub-badge journal" title="Journal">J</span>
