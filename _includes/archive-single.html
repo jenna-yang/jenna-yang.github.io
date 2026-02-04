@@ -27,21 +27,25 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
+      {% assign _cat = post.category | downcase %}
       {% if post.collection == 'publications' %}
-        {% assign _cat = post.category | downcase %}
         {% if _cat contains 'journal' or _cat contains 'journals' %}
           <span class="pub-badge journal" title="Journal">J</span>
         {% elsif _cat contains 'conference' or _cat contains 'conferences' or _cat contains 'conf' %}
           <span class="pub-badge conf" title="Conference">C</span>
         {% endif %}
-      {% endif %}
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
+
+        <span class="pub-title">{{ title }}</span>
         {% if post.paperurl %}<a class="paper-link" href="{{ post.paperurl }}">[paper]</a>{% endif %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-        {% if post.paperurl %}<a class="paper-link" href="{{ post.paperurl }}">[paper]</a>{% endif %}
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a>
+          {% if post.paperurl %}<a class="paper-link" href="{{ post.paperurl }}">[paper]</a>{% endif %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% if post.paperurl %}<a class="paper-link" href="{{ post.paperurl }}">[paper]</a>{% endif %}
+        {% endif %}
       {% endif %}
     </h2>
     
@@ -63,6 +67,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
+    {% unless post.collection == 'publications' %}
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
@@ -90,6 +95,7 @@
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
+    {% endunless %}
 
   </article>
 </div>
