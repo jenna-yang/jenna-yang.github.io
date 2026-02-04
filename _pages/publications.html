@@ -48,10 +48,31 @@ author_profile: true
 
   .paper-link{ margin-left:8px; font-size:0.85em; color:#6b6b6b; text-decoration:none; border:none; padding:0; background:none; }
   .paper-link:hover{ color:#333; text-decoration:underline; }
+
+  /* legend styles */
+  .pub-legend{ margin-top:10px; margin-bottom:18px; }
+  .pub-legend-line{ color:#333; font-size:0.95em; margin-bottom:6px; }
+  .pub-legend-icons{ margin-top:6px; }
+  .pub-badge.journal{ background:#2ca02c; color:#fff; }
+  .pub-badge.conf{ background:#1f77b4; color:#fff; }
+  .pub-badge-lg{ display:inline-block; width:26px; height:26px; line-height:26px; padding:0; font-size:0.95em; border-radius:6px; margin-right:8px; }
 </style>
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">These are selective publications as a project leader. You can find all my papers <a href="{{site.author.googlescholar}}">here</a>.</div>
+
+  <div class="pub-legend">
+    <div class="pub-legend-line">
+      <span class="pub-legend-item"><span class="pub-badge conf">C</span> for Conference</span>
+      &nbsp;&nbsp;&nbsp;
+      <span class="pub-legend-item"><span class="pub-badge journal">J</span> for Journal</span>
+    </div>
+    <hr />
+    <div class="pub-legend-icons">
+      <span class="pub-badge-lg pub-badge conf">C</span>
+      <span class="pub-badge-lg pub-badge journal">J</span>
+    </div>
+  </div>
 {% endif %}
 
 {% include tags_table.html %}
