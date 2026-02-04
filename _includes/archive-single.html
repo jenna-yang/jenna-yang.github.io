@@ -27,6 +27,14 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
+      {% if post.collection == 'publications' %}
+        {% assign _cat = post.category | downcase %}
+        {% if _cat contains 'journal' or _cat contains 'journals' %}
+          <span class="pub-badge journal" title="Journal">J</span>
+        {% elsif _cat contains 'conference' or _cat contains 'conferences' or _cat contains 'conf' %}
+          <span class="pub-badge conf" title="Conference">C</span>
+        {% endif %}
+      {% endif %}
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
