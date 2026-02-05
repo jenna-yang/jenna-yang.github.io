@@ -20,6 +20,27 @@ body .wide .page__hero {
   padding-right: 20px !important;
 }
 
+/* Ensure the inner wrapper used for overlay heroes also expands to full width
+   on pages that set `classes: wide` in front matter (e.g., the home/about page). */
+body .wide .page__hero--overlay .wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+/* Slightly reduce the hero title and lead sizes on wide pages so the opener
+   reads a bit smaller as requested. */
+body .wide .page__title {
+  font-size: 0.95em !important;
+  line-height: 1.05 !important;
+}
+
+body .wide .page__lead {
+  font-size: 0.95em !important;
+  max-width: none !important;
+}
+
 .pub-title {
   color: #000;
   text-decoration: none;
