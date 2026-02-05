@@ -9,15 +9,6 @@ redirect_from:
 ---
 
 I am a third year Ph.D. candidate in Computer Science, part of the [System-Level Design Group](https://sld.cs.columbia.edu/) at Columbia University. Before joining Columbia University, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST. <br>
-
-<style>
-  /* Slightly reduce overall font for the homepage and make content full-width */
-  body .wide { font-size: 0.96em; }
-  /* Target main content container to expand full width */
-  body .wide .container, body .wide .content, body .wide .page__content { max-width: 100% !important; width: 100% !important; padding-left: 20px !important; padding-right: 20px !important; }
-  /* Keep hero/title area aligned nicely */
-  body .wide .page__hero { max-width: 100% !important; padding-left: 20px !important; padding-right:20px !important; }
-</style>
 **Research Interests**<br>
 Computer Architecture | Heterogeneous Reconfigurable SoC | HW/SW Co-Design Approach
 <br>

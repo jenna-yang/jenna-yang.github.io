@@ -1,7 +1,27 @@
-/* Custom overrides for site-wide tweaks (migrated from assets/css/custom.css) */
+/* Custom overrides for site-wide tweaks */
 /* Slightly reduce font for main content and force full-width for pages with class 'wide' */
-body .wide { font-size: 0.96em; }
+body .wide {
+  font-size: 0.96em;
+}
+
 /* Target main content container to expand full width */
-body .wide .container, body .wide .content, body .wide .page__content { max-width: 100% !important; width: 100% !important; padding-left: 20px !important; padding-right: 20px !important; }
-body .wide .page__hero { max-width: 100% !important; padding-left: 20px !important; padding-right:20px !important; }
-.pub-title { color:#000; text-decoration:none; cursor:default; }
+body .wide .container,
+body .wide .content,
+body .wide .page__content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+body .wide .page__hero {
+  max-width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.pub-title {
+  color: #000;
+  text-decoration: none;
+  cursor: default;
+}
