@@ -33,12 +33,12 @@
       <p class="page__meta"><em>{% if post.type %}{{ post.type }}{% endif %}{% if post.type and post.venue %}, {% endif %}{% if post.venue %}{{ post.venue }}{% endif %}</em>{% if post.venue %},{% endif %}</p>
     {% endif %}
 
-    {% if post.date %}
-      <p class="page__meta">{{ post.date | date: "%B %d, %Y" }}</p>
-    {% endif %}
-
-    {% if post.location %}
-      <p class="page__meta">{{ post.location }}</p>
+    {% if post.date or post.location %}
+      <p class="page__meta">
+        {% if post.date %}{{ post.date | date: "%B %d, %Y" }}{% endif %}
+        {% if post.date and post.location %} | {% endif %}
+        {% if post.location %}{{ post.location }}{% endif %}
+      </p>
     {% endif %}
 
     {% if post.read_time %}
