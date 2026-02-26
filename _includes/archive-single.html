@@ -38,7 +38,7 @@
         <span class="pub-title">{{ title }}</span>
         {% if post.paperurl %}<a class="paper-link" href="{{ post.paperurl }}">[paper]</a>{% endif %}
       {% elsif post.collection == 'teaching' %}
-        <span class="pub-title">{{ title }}</span>
+        <a href="{{ base_path }}{{ post.url }}" class="pub-title">{{ title }}</a>
       {% else %}
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a>
@@ -63,10 +63,12 @@
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "" | date_to_xmlschema }}">{{ post.date | default: "" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | replace: 'Je Yang', '<strong>Je Yang</strong>' }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | replace: 'Je Yang', '<strong>Je Yang</strong>' | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% if post.collection != 'teaching' %}
+      {% if post.excerpt and site.read_more != 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | replace: 'Je Yang', '<strong>Je Yang</strong>' }}</p>
+      {% elsif post.excerpt and site.read_more == 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | replace: 'Je Yang', '<strong>Je Yang</strong>' | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+      {% endif %}
     {% endif %}
     
     {% unless post.collection == 'publications' %}
