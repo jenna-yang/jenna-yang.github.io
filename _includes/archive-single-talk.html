@@ -30,7 +30,7 @@
     </h2>
 
     {% if post.type or post.venue %}
-      <p class="page__meta"><em>{% if post.type %}{{ post.type }}{% endif %}{% if post.type and post.venue %}, {% endif %}{% if post.venue %}{{ post.venue }}{% endif %}</em>{% if post.venue %},{% endif %}</p>
+      <p class="page__meta"><em>{% if post.type %}{{ post.type }}{% endif %}{% if post.type and post.venue %}, {% endif %}{% if post.venue %}{{ post.venue }}{% endif %}</em></p>
     {% endif %}
 
     {% if post.date or post.location %}
