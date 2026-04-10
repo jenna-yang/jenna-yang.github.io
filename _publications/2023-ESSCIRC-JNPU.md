@@ -6,7 +6,7 @@ permalink: /publication/2023-ESSCIRC-JNPU
 excerpt: 'Je Yang, Sukbin Lim, Sukjin Lee, Jae-Young Kim, and Joo-Young Kim'
 date: 2023-09-11
 venue: 'IEEE European Solid-State Circuits Conference (ESSCIRC)'
-paperurl: 'http://jenna-yang.github.io/files/2023-ESSCIRC-Paper.pdf'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10268810'
 tags:
   - MultiTenant-CNN
   - Quantization

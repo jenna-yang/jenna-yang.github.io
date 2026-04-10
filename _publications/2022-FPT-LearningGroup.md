@@ -6,7 +6,7 @@ permalink: /publication/2022-FPT-LearningGroup
 excerpt: 'Je Yang, JaeUk Kim, and Joo-Young Kim'
 date: 2022-12-05
 venue: 'IEEE International Conference on Field Programmable Technology (ICFPT)'
-paperurl: 'http://jenna-yang.github.io/files/2022-ICFPT-Paper.pdf'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/9974543'
 tags:
   - ReinforcementLearning
   - Pruning

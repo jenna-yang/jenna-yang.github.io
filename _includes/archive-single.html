@@ -35,8 +35,11 @@
           <span class="pub-badge conf" title="Conference">C</span>
         {% endif %}
 
-        <span class="pub-title">{{ title }}</span>
-        {% if post.paperurl %}<a class="paper-link" href="{{ post.paperurl }}">[paper]</a>{% endif %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" class="pub-title">{{ title }}</a>
+        {% else %}
+          <span class="pub-title">{{ title }}</span>
+        {% endif %}
       {% elsif post.collection == 'teaching' %}
         <a href="{{ base_path }}{{ post.url }}" class="pub-title">{{ title }}</a>
       {% else %}
