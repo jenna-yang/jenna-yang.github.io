@@ -3,7 +3,7 @@ title: "A Coherence-Aware Runtime Reconfigurable System-on-Chip for Efficient La
 collection: publications
 category: journals # manuscripts
 permalink: 
-excerpt: 'Je Yang, Seongmin Hong, and Joo-Young Kim'
+excerpt: 'Je Yang, Gracen Wallace, Joseph Zuckerman, Gabriele Tombesi, and Luca P. Carloni'
 date: 2026-05-01
 venue: 'IEEE Micro'
 paperurl: 'https://ieeexplore.ieee.org/document/11503293'
