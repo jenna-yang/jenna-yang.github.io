@@ -9,6 +9,7 @@ venue: 'IEEE International Conference on Field-Programmable Logic and Applicatio
 paperurl: 'https://ieeexplore.ieee.org/document/11449114'
 tags:
   - LanguageModel
+  - Cache Coherency
   - FPGA
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
