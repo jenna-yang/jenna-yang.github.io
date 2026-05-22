@@ -33,31 +33,50 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
-/* Profile photo on about page: small circular crop, matched to bio height */
+/* Profile photo on about page: circular, pulled up to sit next to the name */
 .profile {
-  width: 180px !important;
-  max-width: 180px !important;
+  width: 170px !important;
+  max-width: 170px !important;
+  margin-top: -90px !important;
 }
 .profile figure,
 .profile picture {
   margin: 0 !important;
 }
 .profile img {
-  width: 180px !important;
-  height: 180px !important;
+  width: 170px !important;
+  height: 170px !important;
   object-fit: cover !important;
   object-position: center 25% !important;
   border-radius: 50% !important;
 }
 
-/* Publications page: tighter spacing between papers */
-.publications ol.bibliography li,
-.publications > .row {
-  margin-bottom: 0.6rem;
-  padding-bottom: 0.6rem;
+/* About-page section headings (Education, Experience, Awards, etc.) in theme green */
+.post h2:not(.bibliography) {
+  color: var(--global-theme-color);
 }
+
+/* Publications: title color, tighter rows, PAPER button on the right next to the year column */
 .publications ol.bibliography {
   margin-top: 1rem;
+}
+.publications ol.bibliography li {
+  position: relative;
+  padding-right: 5.5rem;
+  margin-bottom: 0.5rem;
+}
+.publications ol.bibliography li .title {
+  color: var(--global-theme-color);
+}
+.publications ol.bibliography li .links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+}
+.publications h2.bibliography {
+  margin-top: 1.25rem;
+  padding-top: 0.5rem;
 }
 .publications .post-description {
   margin-bottom: 1.5rem;
