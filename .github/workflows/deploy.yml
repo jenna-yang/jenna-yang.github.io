@@ -7,10 +7,17 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_data/**"
+      - "_plugins/**"
+      - "_sass/**"
+      - "_includes/**"
+      - "_layouts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"
+      - "**.rb"
+      - "**.scss"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
