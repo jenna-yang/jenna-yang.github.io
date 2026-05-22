@@ -56,9 +56,10 @@ AI Accelerator and System Team
 
 ## Awards & Scholarships
 
-| | |
-|---|---|
-| **Gold Prize**, 29th Samsung HumanTech Award *(1st in Circuit Design Division)* | Feb 2023 |
-| **National Full Scholarship**, KAIST | Sep 2020 |
-| **Grand Prize**, WISET Female Engineering Program | Apr 2018 |
-| **National Science & Technology Scholarship** | Mar 2018 |
+**Gold Prize**, 29th Samsung HumanTech Award *(1st in Circuit Design Division)* <span style="color:#9e9e9e; float:right">Feb 2023</span>
+
+**National Full Scholarship**, KAIST <span style="color:#9e9e9e; float:right">Sep 2020</span>
+
+**Grand Prize**, WISET Female Engineering Program <span style="color:#9e9e9e; float:right">Apr 2018</span>
+
+**National Science & Technology Scholarship** <span style="color:#9e9e9e; float:right">Mar 2018</span>
