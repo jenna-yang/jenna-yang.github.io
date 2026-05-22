@@ -12,12 +12,14 @@ profile:
 
 news: false
 selected_papers: false
-social: true
+social: false
 ---
 
 I am a third-year Ph.D. candidate in Computer Science, part of the [System-Level Design Group](https://sld.cs.columbia.edu/) at Columbia University, advised by Professor Luca P. Carloni. Before joining Columbia, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST.
 
 **Research Interests:** Computer Architecture &nbsp;·&nbsp; Heterogeneous Reconfigurable SoC &nbsp;·&nbsp; HW/SW Co-Design Approach
+
+<div style="clear:both"></div>
 
 ---
 
