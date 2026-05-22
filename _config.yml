@@ -178,6 +178,7 @@ plugins:
   - jekyll-tabs
   - jekyll-toc
   - jekyll-remote-theme
+  - jekyll-socials
   - jemoji
 
 sass:

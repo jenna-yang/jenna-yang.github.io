@@ -13,6 +13,7 @@ group :jekyll_plugins do
   gem 'jekyll-tabs'
   gem 'jekyll-toc'
   gem 'jekyll-remote-theme'
+  gem 'jekyll-socials'
   gem 'jemoji'
   gem 'unicode_utils'
   gem 'webrick'
