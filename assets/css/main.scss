@@ -33,22 +33,31 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
-/* Profile photo on about page: circular, pulled up to sit next to the name */
+/* Profile photo on about page: zoomed-in circular crop, pulled up next to the name */
 .profile {
   width: 170px !important;
+  height: 170px !important;
   max-width: 170px !important;
   margin-top: -90px !important;
+  overflow: hidden;
+  border-radius: 50%;
 }
 .profile figure,
 .profile picture {
   margin: 0 !important;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
 }
 .profile img {
-  width: 170px !important;
-  height: 170px !important;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: cover !important;
-  object-position: center 25% !important;
-  border-radius: 50% !important;
+  object-position: center 35% !important;
+  transform: scale(1.35);
+  transform-origin: center 40%;
+  border-radius: 0 !important;
 }
 
 /* About-page section headings (Education, Experience, Awards, etc.) in theme green */
@@ -56,14 +65,20 @@
   color: var(--global-theme-color);
 }
 
-/* Publications: title color, tighter rows, PAPER button on the right next to the year column */
+/* Publications: title color, tighter rows, PAPER button on the right under the year */
 .publications ol.bibliography {
   margin-top: 1rem;
 }
 .publications ol.bibliography li {
   position: relative;
-  padding-right: 5.5rem;
   margin-bottom: 0.5rem;
+}
+/* Bootstrap's col-* defaults to position: relative, which would anchor the
+   absolutely-positioned .links to the col instead of the full-width li.
+   Force static so .links lands at the right edge of the row (under the year). */
+.publications ol.bibliography li > .row > div {
+  position: static !important;
+  padding-right: 5rem;
 }
 .publications ol.bibliography li .title {
   color: var(--global-theme-color);
