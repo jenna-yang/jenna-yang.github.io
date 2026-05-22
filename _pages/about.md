@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate in Computer Science · <a href="https://sld.cs.columbia.edu/">System-Level Design Group</a> · Columbia University
+subtitle:
 
 profile:
   align: right
