@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.data.profile.name }} | Columbia CS</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body id="top">
+<a class="skip" href="#about">Skip to main content</a>
+<nav class="nav"><div class="wrap">
+<a class="nav-name" href="#top">{{ site.data.profile.name }}</a>
+<div class="nav-links">
+<a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#publications">Publications</a><a href="#talks">Talks</a><a href="#teaching">Services</a><a href="#awards">Awards</a>
+</div>
+</div></nav>
+<main class="wrap">
+{{ content }}
+</main>
+<footer><div class="wrap">
+<span>© {{ 'now' | date: '%Y' }} {{ site.data.profile.name }}</span>
+<a href="#top">Back to top ↑</a>
+</div></footer>
+<script>
+(function(){var l=[].slice.call(document.querySelectorAll('.nav-links a'));var s=l.map(function(a){return document.querySelector(a.getAttribute('href'))});function u(){var y=window.scrollY+90,i=0;s.forEach(function(e,k){if(e&&e.offsetTop<=y)i=k});l.forEach(function(a,k){a.classList.toggle('active',k===i)})}window.addEventListener('scroll',u,{passive:true});u()})();
+</script>
+</body>
+</html>

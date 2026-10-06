@@ -1,0 +1,24 @@
+- org: Waymo
+  role: Machine Learning Engineer Intern
+  team: Simulation Team
+  date: Jun 2026 – Sep 2026
+  place: Mountain View, CA
+  bullets:
+    - Proposed spatio-temporal adaptive Hadamard rotation for low-precision distributed optimization of language model, improving kernel overhead up to 2.00x compared to global rotation and reducing the final loss by up to 41.33% compared to a faulty-mapped randomness key.
+    - Achieved 32.5% step time reduction on 32x32 meshed Google TPUv5e VLPs, evaluated on Waymo's simulation model.
+- org: Google
+  role: Student Researcher
+  team: ML, Systems and Cloud AI Team
+  date: May 2025 – Aug 2025
+  place: New York, NY (Remote)
+  bullets:
+    - Developed an agentic AI system with prompt engineering for RTL simulation debugging and verification.
+    - Optimized waveform-to-database conversion to generate SQL for signal data retrieval, reducing database size by 18% and accelerating generation time by 65%.
+- org: Rebellions Inc.
+  role: Research Intern
+  team: AI Accelerator and System Team
+  date: Oct 2022 – May 2023
+  place: Seoul, South Korea
+  bullets:
+    - Implemented a system emulation tool in Python to determine the optimal hardware configuration—number of chips, chip-to-chip topology and bandwidth, memory and computation resources—for real-time inference.
+    - Mapped and simulated transformer-based hyper-scale models (BERT, GPT-2, T5) with the system emulation tool.

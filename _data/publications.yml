@@ -1,0 +1,50 @@
+# Selected publications (from papers.bib). Rendered as cards in the Publications section.
+- title: "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification"
+  authors: <u>Je Yang</u>, Ivan Lobov, and Thomas Karpati
+  venue: NeurIPS Workshop
+  full: Neural Information Processing Systems (NeurIPS) Workshop AI for Chip Design
+  year: 2026
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2610.06790
+- title: A Coherence-Aware Runtime Reconfigurable System-on-Chip for Efficient Language Model Inference
+  authors: <u>Je Yang</u>, Gracen Wallace, Joseph Zuckerman, Gabriele Tombesi, and Luca P. Carloni
+  venue: Micro
+  full: IEEE Micro
+  type: journal   # journal venues get a gray badge
+  year: 2026
+  links:
+    - label: Paper
+      url: https://ieeexplore.ieee.org/document/11503293
+- title: "ReconFormer: A Multi-Level Run-time Reconfigurable System-on-Chip for Accelerating Transformers"
+  authors: <u>Je Yang</u>, Gabriele Tombesi, Joseph Zuckerman, and Luca P. Carloni
+  venue: FPL
+  full: IEEE International Conference on Field-Programmable Logic and Applications (FPL)
+  year: 2025
+  links:
+    - label: Paper
+      url: https://ieeexplore.ieee.org/document/11449114
+- title: "JNPU: A 1.04TFLOPS Joint-DNN Training Processor with Speculative Quantization and Triple Heterogeneity on Microarchitecture / Precision / Dataflow"
+  authors: <u>Je Yang</u>, Sukbin Lim, Sukjin Lee, Jae-Young Kim, and Joo-Young Kim
+  venue: ESSCIRC
+  full: IEEE European Solid-State Circuits Conference (ESSCIRC)
+  year: 2023
+  links:
+    - label: Paper
+      url: https://ieeexplore.ieee.org/abstract/document/10268810
+- title: "LearningGroup: A Real-Time Sparse Training on FPGA via Learnable Weight Grouping for Multi-Agent Reinforcement Learning"
+  authors: <u>Je Yang</u>, JaeUk Kim, and Joo-Young Kim
+  venue: ICFPT
+  full: IEEE International Conference on Field Programmable Technology (ICFPT)
+  year: 2022
+  links:
+    - label: Paper
+      url: https://ieeexplore.ieee.org/abstract/document/9974543
+- title: "FIXAR: A Fixed-Point Deep Reinforcement Learning Platform with Quantization-Aware Training and Adaptive Parallelism"
+  authors: <u>Je Yang</u>, Seongmin Hong, and Joo-Young Kim
+  venue: DAC
+  full: ACM/IEEE Design Automation Conference (DAC)
+  year: 2021
+  links:
+    - label: Paper
+      url: https://ieeexplore.ieee.org/abstract/document/9586213

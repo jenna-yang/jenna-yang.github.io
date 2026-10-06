@@ -1,0 +1,24 @@
+- year: 2025
+  title: A Cache Coherence-Aware Runtime Reconfigurable System-on-Chip for Efficient Language Model Inference
+  authors: <u>Je Yang</u>, Gracen Wallace, Joseph Zuckerman, Gabriele Tombesi, and Luca P. Carloni
+  venue: IBM AI Hardware Forum
+  type: Poster Session
+  date: November 2025
+  place: New York, NY, USA
+- year: 2025
+  title: An Open-Source DNN Acceleration Fabric with Flexible Inter-Layer Pipelining Support
+  authors: Gabriele Tombesi, Joseph Zuckerman, <u>Je Yang</u>, William Baisi, Kevin Lee, Davide Giri, and Luca P. Carloni
+  venue: Workshop on Open-Source Computer Architecture Research (OSCAR)
+  type: Oral Presentation
+  date: June 2025
+  place: Tokyo, Japan
+- year: 2025
+  title: Design- and Run-time Reconfigurable System-on-Chip for Language Model Inference on Edge
+  authors: <u>Je Yang</u>, Gabriele Tombesi, Joseph Zuckerman, and Luca P. Carloni
+  venue: Columbia AI Summit
+  type: Poster Session
+  date: March 2025
+  place: New York, NY, USA
+  links:
+    - label: Slides
+      url: /files/2025-AISummit-Talk.pdf

@@ -1,0 +1,23 @@
+name: Jenna (Je) Yang
+title: Ph.D. Candidate in Computer Science · Columbia University
+photo: /assets/img/prof_pic.jpg
+email: je.yang@cs.columbia.edu
+address:
+  - System-Level Design Group
+  - Department of Computer Science
+  - Columbia University
+  - New York, NY
+bio:
+  - 'I am a fourth-year Ph.D. candidate in Computer Science, part of the <a href="https://sld.cs.columbia.edu/">System-Level Design Group</a> at Columbia University, advised by Professor Luca P. Carloni. Before joining Columbia, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST.'
+  - '<strong>Research Interests:</strong><br><span class="interests">Computer Architecture · Heterogeneous Reconfigurable SoC · HW/SW Co-Design Approach</span>'
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=irqY7W4AAAAJ
+  - label: CV
+    url: /assets/pdf/CV.pdf
+  - label: Email
+    url: mailto:je.yang@cs.columbia.edu
+  - label: GitHub
+    url: https://github.com/jenna-yang
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/jenna-y

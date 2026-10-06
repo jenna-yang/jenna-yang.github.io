@@ -1,0 +1,22 @@
+courses:
+  - code: CSEE4868
+    name: System-on-Chip Platforms
+    level: Graduate course, Columbia University
+    terms: Fall 2024, Fall 2025
+  - code: CSEE6868
+    name: Embedded Scalable Platforms
+    level: Graduate course, Columbia University
+    terms: Spring 2025, 2026
+  - code: EE303
+    name: Digital System Design
+    level: Undergraduate course, KAIST
+    terms: Spring 2021, Fall 2022
+  - code: EE488
+    name: Hardware Acceleration for Machine Learning
+    level: Graduate course, KAIST
+    terms: Spring 2022
+mentoring:
+  - code: CSEE6868
+    name: Embedded Scalable Platforms
+    level: Graduate course, Columbia University
+    terms: Spring 2025, 2026

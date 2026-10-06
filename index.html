@@ -1,0 +1,83 @@
+---
+layout: default
+---
+{% assign p = site.data.profile %}
+<section class="hero" id="about">
+<div>
+<h1>{{ p.name }}</h1>
+<p class="role">{{ p.title }}</p>
+{% for para in p.bio %}<p>{{ para }}</p>{% endfor %}
+<div class="btns">{% for l in p.links %}<a class="btn{% if forloop.first %} primary{% endif %}" href="{{ l.url | relative_url }}"{% unless l.url contains "mailto:" or l.url contains "/assets/" %} target="_blank" rel="noopener"{% endunless %}>{{ l.label }}</a>{% endfor %}</div>
+</div>
+<aside>
+<div class="portrait"><img src="{{ p.photo | relative_url }}" alt="Portrait of {{ p.name }}"></div>
+</aside>
+</section>
+
+<section class="sec" id="education">
+<h2>Education</h2>
+<div class="rows">
+{% for e in site.data.education %}
+<div class="row"><div class="row-main"><div class="t">{{ e.degree }}<span>, {{ e.school }}</span></div>{% for n in e.notes %}<div class="sub">{{ n }}</div>{% endfor %}</div><div class="row-meta">{{ e.date }}<br>{{ e.place }}</div></div>
+{% endfor %}
+</div>
+</section>
+
+<section class="sec" id="experience">
+<h2>Experience</h2>
+<div class="rows">
+{% for x in site.data.experience %}
+<div class="row xp"><div class="row-main"><div class="t">{{ x.org }}<span> — {{ x.role }}</span></div><div class="sub">{{ x.team }}</div></div><div class="row-meta">{{ x.date }}<br>{{ x.place }}</div><ul>{% for b in x.bullets %}<li>{{ b }}</li>{% endfor %}</ul></div>
+{% endfor %}
+</div>
+</section>
+
+<section class="sec" id="publications">
+<h2>Selected Publications</h2>
+<p class="note">Check the full publications list on <a href="https://scholar.google.com/citations?user=irqY7W4AAAAJ">Google Scholar</a>.</p>
+{% if site.data.publications.size > 0 %}
+<div class="pubs">
+{% assign prev_year = "" %}
+{% for x in site.data.publications %}
+<div class="pubrow"><div class="pub-year">{% if x.year != prev_year %}{{ x.year }}{% endif %}</div>{% assign prev_year = x.year %}
+<article class="pub"><h3 class="t">{{ x.title }}</h3><p class="a">{{ x.authors }}</p><div class="m"><span class="tag venue{% if x.type == "journal" %} journal{% endif %}">{{ x.full | default: x.venue }}</span>{% if x.note %}<span class="tag">{{ x.note }}</span>{% endif %}{% for l in x.links %}<a class="tag tag-link" href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}</div></article></div>
+{% endfor %}
+</div>
+{% endif %}
+</section>
+
+<section class="sec" id="talks">
+<h2>Talks &amp; Presentations</h2>
+<div class="pubs">
+{% assign prev_year = "" %}
+{% for x in site.data.talks %}
+<div class="pubrow"><div class="pub-year">{% if x.year != prev_year %}{{ x.year }}{% endif %}</div>{% assign prev_year = x.year %}
+<article class="pub"><h3 class="t">{{ x.title }}</h3><p class="a">{{ x.authors }}</p><div class="m"><span class="tag venue">{{ x.venue }}</span><span class="tag">{{ x.type }}</span>{% for l in x.links %}<a class="tag tag-link" href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}<span>{{ x.place }}</span></div></article></div>
+{% endfor %}
+</div>
+</section>
+
+<section class="sec" id="teaching">
+<h2>Services</h2>
+<p class="eyebrow">Teaching Assistant</p>
+<div class="rows">
+{% for c in site.data.teaching.courses %}
+<div class="row"><div class="row-main"><div class="t">{{ c.code }} {{ c.name }}</div><div class="sub"><em>{{ c.level }}</em></div></div><div class="row-meta">{{ c.terms }}</div></div>
+{% endfor %}
+</div>
+<p class="eyebrow" style="margin-top:24px">Mentoring</p>
+<div class="rows">
+{% for c in site.data.teaching.mentoring %}
+<div class="row"><div class="row-main"><div class="t">{{ c.code }} {{ c.name }}</div><div class="sub"><em>{{ c.level }}</em></div></div><div class="row-meta">{{ c.terms }}</div></div>
+{% endfor %}
+</div>
+</section>
+
+<section class="sec" id="awards">
+<h2>Awards &amp; Scholarships</h2>
+<div class="rows">
+{% for a in site.data.awards %}
+<div class="row"><div class="row-main"><div class="t">{{ a.name }}{% if a.detail != "" %}<span>, {{ a.detail }}</span>{% endif %}</div></div><div class="row-meta">{{ a.date }}</div></div>
+{% endfor %}
+</div>
+</section>
