@@ -15,7 +15,7 @@ selected_papers: false
 social: false
 ---
 
-I am a third-year Ph.D. candidate in Computer Science, part of the [System-Level Design Group](https://sld.cs.columbia.edu/) at Columbia University, advised by Professor Luca P. Carloni. Before joining Columbia, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST.
+I am a fourth-year Ph.D. candidate in Computer Science, part of the [System-Level Design Group](https://sld.cs.columbia.edu/) at Columbia University, advised by Professor Luca P. Carloni. Before joining Columbia, I received my M.S. and B.S. degrees in Electrical Engineering from KAIST.
 
 **Research Interests:** Computer Architecture &nbsp;·&nbsp; Heterogeneous Reconfigurable SoC &nbsp;·&nbsp; HW/SW Co-Design Approach
 
@@ -41,6 +41,8 @@ Exchange Student, University of California, Irvine &nbsp;(Jul – Aug 2019)
 
 **Waymo** — Machine Learning Engineer Intern <span style="color:#9e9e9e; float:right">Jun 2026 – Sep 2026 &nbsp;·&nbsp; Mountain View, CA</span><br>
 Simulation Team
+- Proposed spatio-temporal adaptive Hadamard rotation for low-precision distributed optimization of language model, improving kernel overhead up to 2.00x compared to global rotation and reducing the final loss by up to 41.33% compared to a faulty-mapped randomness key.
+- Achieved 32.5% step time reduction on 32x32 meshed Google TPUv5e VLPs, evaluated on Waymo's simulation model.
 
 **Google** — Student Researcher <span style="color:#9e9e9e; float:right">May 2025 – Aug 2025 &nbsp;·&nbsp; New York, NY (Remote)</span><br>
 ML, Systems and Cloud AI Team
