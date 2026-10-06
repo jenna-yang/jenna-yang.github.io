@@ -27,7 +27,7 @@ a:hover{color:var(--accent-ink);text-decoration:underline;text-underline-offset:
 .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
 .btn.primary:hover{background:var(--accent-ink);border-color:var(--accent-ink);color:#fff}
 .portrait{width:100%;aspect-ratio:1;border-radius:12px;overflow:hidden;background:var(--line)}
-.portrait img{width:100%;height:100%;object-fit:cover;object-position:center 55%;transform:scale(1.2);transform-origin:center 60%;display:block}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 section.sec{padding:32px 0;border-top:1px solid var(--line)}
 .sec h2{font-size:24px;line-height:1.25;font-weight:700;margin:0 0 18px;letter-spacing:-.01em}
 .sec h3{font-size:15.5px;line-height:1.35;font-weight:600;margin:32px 0 12px;color:var(--ink)}
